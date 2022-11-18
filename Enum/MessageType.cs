@@ -1,4 +1,4 @@
-﻿namespace KnjiznicarLoginServer.Enum
+﻿namespace KnjiznicarDataModel.Enum
 {
     public enum MessageType
     {
@@ -9,6 +9,9 @@
         Logout = 5,
         PlayerConnected = 6,
         AcceptPlayer = 7,
-        PlayerLoggedOut = 8
+        PlayerLoggedOut = 8,
+        PlayerInput = 9,
+        PlayerCoordinates = 10,
+        SpawnPlayer = 11
     }
 }

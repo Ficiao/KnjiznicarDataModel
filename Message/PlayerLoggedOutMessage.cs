@@ -1,6 +1,6 @@
-﻿using KnjiznicarLoginServer.Enum;
+﻿using KnjiznicarDataModel.Enum;
 
-namespace KnjiznicarLoginServer.Message
+namespace KnjiznicarDataModel.Message
 {
     class PlayerLoggedOutMessage : BaseMessage
     {

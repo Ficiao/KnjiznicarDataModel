@@ -1,7 +1,6 @@
-﻿using KnjiznicarLoginServer.Enum;
-using Newtonsoft.Json;
+﻿using KnjiznicarDataModel.Enum;
 
-namespace KnjiznicarLoginServer.Message
+namespace KnjiznicarDataModel.Message
 {
     class RegisterMessage : BaseMessage
     {

@@ -1,7 +1,7 @@
-﻿using KnjiznicarLoginServer.Enum;
+﻿using KnjiznicarDataModel.Enum;
 using Newtonsoft.Json;
 
-namespace KnjiznicarLoginServer.Message
+namespace KnjiznicarDataModel.Message
 {
     class ConnectedToServerMessage : BaseMessage
     {
@@ -11,7 +11,6 @@ namespace KnjiznicarLoginServer.Message
 
         public ConnectedToServerMessage() : base(MessageType.Connect)
         {
-            welcomeMessage = "Welcome to the server!";
         }
     }
 }

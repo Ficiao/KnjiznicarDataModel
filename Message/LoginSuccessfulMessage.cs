@@ -1,8 +1,8 @@
-﻿using KnjiznicarLoginServer.Enum;
+﻿using KnjiznicarDataModel.Enum;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace KnjiznicarLoginServer.Message
+namespace KnjiznicarDataModel.Message
 {
     class LoginSuccessfulMessage : BaseMessage
     {
@@ -20,15 +20,8 @@ namespace KnjiznicarLoginServer.Message
         public int instancePort;
 
 
-        public LoginSuccessfulMessage(bool loginSuccessful, bool isLogin, List<string> ipList = null, PlayerData playerData = null) : base(MessageType.LoginSuccessful)
+        public LoginSuccessfulMessage() : base(MessageType.LoginSuccessful)
         {
-            this.loginSuccessful = loginSuccessful;
-            this.isLogin = isLogin;
-            this.playerData = playerData;
-            this.overworldIp = Constants.overworldIp;
-            this.overworldPort = Constants.overworldPort;
-            this.instanceIp = Constants.instanceIp;
-            this.instancePort = Constants.instancePort;
         }
     }
 }

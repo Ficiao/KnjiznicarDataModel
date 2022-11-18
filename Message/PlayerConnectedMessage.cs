@@ -1,7 +1,6 @@
-﻿using KnjiznicarLoginServer.Enum;
-using System.Net;
+﻿using KnjiznicarDataModel.Enum;
 
-namespace KnjiznicarLoginServer.Message
+namespace KnjiznicarDataModel.Message
 {
     class PlayerConnectedMessage :BaseMessage
     {
