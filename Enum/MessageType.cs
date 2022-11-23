@@ -12,6 +12,7 @@
         PlayerLoggedOut = 8,
         PlayerInput = 9,
         PlayerCoordinates = 10,
-        SpawnPlayer = 11
+        SpawnPlayer = 11,
+        PlayerNameSelection = 12,
     }
 }
