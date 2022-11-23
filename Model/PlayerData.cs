@@ -4,7 +4,7 @@ namespace KnjiznicarDataModel
 {
     public class PlayerData
     {
-        public string username;
+        public string playerName;
         public int playerId;
         public int level;
         public List<Item> items;
