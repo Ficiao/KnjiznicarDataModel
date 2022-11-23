@@ -4,7 +4,7 @@ namespace KnjiznicarDataModel.Message
 {
     class PlayerCoordinatesMessage : BaseMessage
     {
-        public int playerId;
+        public string playerId;
         public float[] position = new float[3];
         public float[] rotation = new float[3];
 
