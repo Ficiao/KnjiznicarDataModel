@@ -5,5 +5,6 @@
         PlayerNameInvalid = 1,
         PlayerCredentialsInvalid = 2,
         RegisterCredentialsInvalid = 3,
+        OverworldShutDown = 4,
     }
 }
