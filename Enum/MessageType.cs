@@ -14,5 +14,6 @@
         PlayerCoordinates = 10,
         SpawnPlayer = 11,
         PlayerNameSelection = 12,
+        Error = 13,
     }
 }
