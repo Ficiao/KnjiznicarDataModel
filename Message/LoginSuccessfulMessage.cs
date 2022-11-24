@@ -9,6 +9,8 @@ namespace KnjiznicarDataModel.Message
         public bool loginSuccessful;
         public bool isLogin;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+        public string username;
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public PlayerData playerData;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public string overworldIp;
