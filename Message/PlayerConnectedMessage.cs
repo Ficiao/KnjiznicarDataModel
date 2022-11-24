@@ -7,6 +7,7 @@ namespace KnjiznicarDataModel.Message
         public PlayerData playerData;
         public string username;
         public string playerIp;
+        public string clientId;
 
         public PlayerConnectedMessage() : base(MessageType.PlayerConnected)
         {
