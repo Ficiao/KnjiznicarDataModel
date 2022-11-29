@@ -6,5 +6,6 @@
         PlayerCredentialsInvalid = 2,
         RegisterCredentialsInvalid = 3,
         OverworldShutDown = 4,
+        PlayerAlreadyLoggedIn = 5,
     }
 }
