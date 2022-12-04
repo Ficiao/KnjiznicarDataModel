@@ -13,6 +13,7 @@ namespace KnjiznicarDataModel.Message
             public int leftRightDirection;
             public int forwardDirection;
             public bool jump;
+            public bool grounded;
         }
 
         public List<PlayerCoordinates> PlayerPositions;
