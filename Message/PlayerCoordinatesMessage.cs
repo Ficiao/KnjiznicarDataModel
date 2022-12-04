@@ -10,6 +10,9 @@ namespace KnjiznicarDataModel.Message
             public string playerId;
             public float[] position = new float[3];
             public float[] rotation = new float[3];
+            public int leftRightDirection;
+            public int forwardDirection;
+            public bool jump;
         }
 
         public List<PlayerCoordinates> PlayerPositions;
