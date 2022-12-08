@@ -9,7 +9,7 @@ namespace KnjiznicarDataModel.Message
         public class PlayerCoordinates
         {
             [JsonProperty("b")]
-            public string playerId;
+            public string playerUsername;
             [JsonProperty("c")]
             public float[] position = new float[3];
             [JsonProperty("d")]
