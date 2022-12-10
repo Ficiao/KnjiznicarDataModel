@@ -7,6 +7,7 @@ namespace KnjiznicarDataModel.Message
     {
         [JsonProperty("welcomeMessage", NullValueHandling = NullValueHandling.Ignore)]
         public string welcomeMessage;
+        public Server serverType;
 
         public ConnectedToServerMessage() : base(MessageType.Connect)
         {
