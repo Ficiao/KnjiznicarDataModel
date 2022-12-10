@@ -1,4 +1,4 @@
-﻿namespace KnjiznicarDataModel
+﻿namespace KnjiznicarDataModel.Enum
 {
     public enum ServerType
     {
