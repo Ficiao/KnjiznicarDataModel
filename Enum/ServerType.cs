@@ -1,6 +1,6 @@
 ﻿namespace KnjiznicarDataModel
 {
-    public enum Server
+    public enum ServerType
     {
         Login = 1,
         Overworld = 2,
