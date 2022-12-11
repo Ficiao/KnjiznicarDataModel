@@ -16,5 +16,6 @@
         PlayerNameSelection = 12,
         Error = 13,
         UdpConnect = 14,
+        DespawnPlayer = 15,
     }
 }
