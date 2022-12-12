@@ -7,7 +7,7 @@ namespace KnjiznicarDataModel.Message
     {
         public List<(string, float[])> spawnArray;
 
-        public SpawnPlayersMessage() : base(MessageType.SpawnPlayer)
+        public SpawnPlayersMessage() : base(MessageType.SpawnPlayers)
         {
             spawnArray = new();
         }
