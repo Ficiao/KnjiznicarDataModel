@@ -19,5 +19,7 @@
         DespawnPlayer = 15,
         SpawnPlayers = 16,
         PlayersMissing = 17,
+        HeartBeat = 18,
+        ChatMessage = 19,
     }
 }
