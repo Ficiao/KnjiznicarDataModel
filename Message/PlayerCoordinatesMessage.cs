@@ -17,6 +17,8 @@ namespace KnjiznicarDataModel.Message
             public int leftRightDirection;
             [JsonProperty("e")]
             public int forwardDirection;
+            [JsonProperty("f")]
+            public bool grounded;
         }
 
         [JsonProperty("a")]
