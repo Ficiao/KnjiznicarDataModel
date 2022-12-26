@@ -4,7 +4,7 @@ namespace KnjiznicarDataModel.Message
 {
     class PlayerLoggedOutMessage : BaseMessage
     {
-        public string id;
+        public string Id;
         
         public PlayerLoggedOutMessage() : base(MessageType.PlayerLoggedOut)
         {

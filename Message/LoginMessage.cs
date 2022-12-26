@@ -4,8 +4,8 @@ namespace KnjiznicarDataModel.Message
 {
     class LoginMessage : BaseMessage
     {
-        public string username;
-        public string passwordHash;
+        public string Username;
+        public string PasswordHash;
 
         public LoginMessage() : base(MessageType.Login)
         {

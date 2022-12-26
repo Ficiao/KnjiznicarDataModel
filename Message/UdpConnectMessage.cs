@@ -4,7 +4,7 @@ namespace KnjiznicarDataModel.Message
 {
     class UdpConnectMessage : BaseMessage
     {
-        public string sessionId;
+        public string SessionId;
 
         public UdpConnectMessage() : base(MessageType.UdpConnect)
         {

@@ -4,8 +4,8 @@ namespace KnjiznicarDataModel.Message
 {
     class PlayerChatMessage : BaseMessage
     {
-        public string playerName;
-        public string message;
+        public string PlayerName;
+        public string Message;
 
         public PlayerChatMessage() : base(MessageType.ChatMessage)
         {

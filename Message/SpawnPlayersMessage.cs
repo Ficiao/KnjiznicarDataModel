@@ -5,11 +5,11 @@ namespace KnjiznicarDataModel.Message
 {
     class SpawnPlayersMessage : BaseMessage
     {
-        public List<(string, float[])> spawnArray;
+        public List<(string, float[])> SpawnArray;
 
         public SpawnPlayersMessage() : base(MessageType.SpawnPlayers)
         {
-            spawnArray = new();
+            SpawnArray = new();
         }
     }
 }

@@ -4,8 +4,8 @@ namespace KnjiznicarDataModel.Message
 {
     class RegisterMessage : BaseMessage
     {
-        public string username;
-        public string passwordHash;
+        public string Username;
+        public string PasswordHash;
 
         public RegisterMessage() : base(MessageType.Register)
         {

@@ -4,10 +4,10 @@ namespace KnjiznicarDataModel.Message
 {
     class PlayerConnectedMessage :BaseMessage
     {
-        public PlayerData playerData;
-        public string username;
-        public string playerIp;
-        public string clientId;
+        public PlayerData PlayerData;
+        public string Username;
+        public string PlayerIp;
+        public string ClientId;
 
         public PlayerConnectedMessage() : base(MessageType.PlayerConnected)
         {

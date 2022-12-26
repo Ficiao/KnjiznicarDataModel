@@ -5,11 +5,11 @@ namespace KnjiznicarDataModel.Message
 {
     class ConnectedToServerMessage : BaseMessage
     {
-        [JsonProperty("welcomeMessage", NullValueHandling = NullValueHandling.Ignore)]
-        public string welcomeMessage;        
-        [JsonProperty("sessionId", NullValueHandling = NullValueHandling.Ignore)]
-        public string sessionId;
-        public ServerType serverType;
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+        public string WelcomeMessage;        
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+        public string SessionId;
+        public ServerType ServerType;
 
         public ConnectedToServerMessage() : base(MessageType.Connect)
         {

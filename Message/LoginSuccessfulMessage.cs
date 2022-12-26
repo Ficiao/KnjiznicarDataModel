@@ -5,20 +5,20 @@ namespace KnjiznicarDataModel.Message
 {
     class LoginSuccessfulMessage : BaseMessage
     {
-        public bool loginSuccessful;
-        public bool isLogin;
+        public bool LoginSuccessful;
+        public bool IsLogin;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public string username;
+        public string Username;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public PlayerData playerData;
+        public PlayerData PlayerData;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public string overworldIp;
+        public string OverworldIp;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public int overworldPort;
+        public int OverworldPort;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public string instanceIp;
+        public string InstanceIp;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public int instancePort;
+        public int InstancePort;
 
 
         public LoginSuccessfulMessage() : base(MessageType.LoginSuccessful)

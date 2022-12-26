@@ -4,7 +4,7 @@ namespace KnjiznicarDataModel.Message
 {
     class ErrorMessage : BaseMessage
     {
-        public ErrorType error;
+        public ErrorType Error;
 
         public ErrorMessage() : base(MessageType.Error)
         {

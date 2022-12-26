@@ -4,11 +4,11 @@ namespace KnjiznicarDataModel
 {
     public class PlayerData
     {
-        public string playerName;
-        public string playerId;
-        public int level;
-        public List<Item> items;
-        public int adventureLevel;
-        public int pvpPoints;
+        public string PlayerName;
+        public string PlayerId;
+        public int Level;
+        public List<Item> Items;
+        public int AdventureLevel;
+        public int PvpPoints;
     }
 }

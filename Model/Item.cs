@@ -2,6 +2,6 @@
 { 
     public class Item
     {
-        public int itemId = 0;
+        public int ItemId = 0;
     }
 }

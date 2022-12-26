@@ -4,7 +4,7 @@ namespace KnjiznicarDataModel.Message
 {
     class DespawnPlayerMessage : BaseMessage
     {
-        public string playerUsername;
+        public string PlayerUsername;
 
         public DespawnPlayerMessage() : base(MessageType.DespawnPlayer)
         {

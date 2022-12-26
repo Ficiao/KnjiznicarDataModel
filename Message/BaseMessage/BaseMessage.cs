@@ -4,11 +4,11 @@ namespace KnjiznicarDataModel.Message
 {
     class BaseMessage
     {
-        public MessageType messageType { get; }
+        public MessageType MessageType { get; }
 
         protected BaseMessage(MessageType type)
         {
-            messageType = type;
+            MessageType = type;
         }
     }
 }

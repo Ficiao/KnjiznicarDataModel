@@ -5,7 +5,7 @@ namespace KnjiznicarDataModel.Message
 {
     class PlayersMissingMessage : BaseMessage
     {
-        public List<string> missingNames;
+        public List<string> MissingNames;
 
         public PlayersMissingMessage() : base(MessageType.PlayersMissing)
         {

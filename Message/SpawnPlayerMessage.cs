@@ -4,8 +4,8 @@ namespace KnjiznicarDataModel.Message
 {
     class SpawnPlayerMessage : BaseMessage
     {
-        public string playerUsername;
-        public float[] spawnPosition;
+        public string PlayerUsername;
+        public float[] SpawnPosition;
 
         public SpawnPlayerMessage() : base(MessageType.SpawnPlayer)
         {

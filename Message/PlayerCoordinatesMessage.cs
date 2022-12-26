@@ -9,16 +9,17 @@ namespace KnjiznicarDataModel.Message
         public class PlayerCoordinates
         {
             [JsonProperty("b")]
-            public string playerUsername;
+            public string PlayerUsername;
             [JsonProperty("c")]
-            public float[] position = new float[3];
+            public float[] Position = new float[3];
             [JsonProperty("d")]
-            public float[] rotation = new float[3];
-            public int leftRightDirection;
+            public float[] Rotation = new float[3];
             [JsonProperty("e")]
-            public int forwardDirection;
+            public int LeftRightDirection;
             [JsonProperty("f")]
-            public bool grounded;
+            public int ForwardDirection;
+            [JsonProperty("g")]
+            public bool Grounded;
         }
 
         [JsonProperty("a")]

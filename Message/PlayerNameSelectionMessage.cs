@@ -4,7 +4,7 @@ namespace KnjiznicarDataModel.Message
 {
     class PlayerNameSelectionMessage : BaseMessage
     {
-        public string playerName;
+        public string PlayerName;
 
         public PlayerNameSelectionMessage() : base(MessageType.PlayerNameSelection)
         {
