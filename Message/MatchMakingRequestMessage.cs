@@ -13,7 +13,7 @@ namespace KnjiznicarDataModel.Message
 
         public MatchType MatchmakingType;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public int level;
+        public int Level;
 
         public MatchmakingRequestMessage() : base(MessageType.MatchmakingRequest)
         {
