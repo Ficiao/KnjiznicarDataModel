@@ -21,5 +21,8 @@
         PlayersMissing = 17,
         HeartBeat = 18,
         ChatMessage = 19,
+        MatchmakingRequest = 20,
+        SearchingForMatch = 22,
+        MatchFound = 21,
     }
 }

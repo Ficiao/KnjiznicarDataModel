@@ -7,5 +7,6 @@
         RegisterCredentialsInvalid = 3,
         OverworldShutDown = 4,
         PlayerAlreadyLoggedIn = 5,
+        MatchmakingUnsucessful = 6,
     }
 }
