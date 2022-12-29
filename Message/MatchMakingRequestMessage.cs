@@ -5,13 +5,8 @@ namespace KnjiznicarDataModel.Message
 {
     class MatchmakingRequestMessage : BaseMessage
     {
-        internal enum MatchType
-        {
-            Pvp = 1,
-            Adventure = 2,
-        }
-
-        public MatchType MatchmakingType;
+        public MatchType MatchType;
+        public int NpcId;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public int Level;
 
