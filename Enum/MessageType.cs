@@ -26,5 +26,9 @@
         MatchFound = 21,
         CancelMatchmakingRequest = 22,
         MatchmakingCanceled = 23,
+        SurrenderRequest = 24,
+        MatchEnd = 25,
+        SelectedWord = 26,
+        TurnOver = 27,
     }
 }
