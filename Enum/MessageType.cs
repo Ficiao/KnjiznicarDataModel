@@ -24,5 +24,7 @@
         MatchmakingRequest = 20,
         SearchingForMatch = 22,
         MatchFound = 21,
+        CancelMatchmakingRequest = 22,
+        MatchmakingCanceled = 23,
     }
 }
