@@ -9,5 +9,6 @@
         PlayerAlreadyLoggedIn = 5,
         MatchmakingUnsucessful = 6,
         IllegalWordUsed = 7,
+        PlayerNotInMatch = 8,
     }
 }
