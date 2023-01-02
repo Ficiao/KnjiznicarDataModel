@@ -31,5 +31,6 @@
         SelectedWord = 26,
         TurnOver = 27,
         ReturnFromInstance = 28,
+        WaitForOpponent = 29,
     }
 }
