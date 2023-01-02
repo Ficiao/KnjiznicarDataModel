@@ -8,9 +8,9 @@ namespace KnjiznicarDataModel.Message
         public MatchType MatchType;
         public bool HasWon;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public int AdventureLevel;
+        public int? AdventureLevel;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public int PvpRatingChange;
+        public int? PvpRatingChange;
 
         public MatchEndMessage() : base(MessageType.MatchEnd)
         {
