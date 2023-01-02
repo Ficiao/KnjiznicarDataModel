@@ -30,5 +30,6 @@
         MatchEnd = 25,
         SelectedWord = 26,
         TurnOver = 27,
+        ReturnFromInstance = 28,
     }
 }
