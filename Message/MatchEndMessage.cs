@@ -7,6 +7,7 @@ namespace KnjiznicarDataModel.Message
     {
         public MatchType MatchType;
         public bool HasWon;
+        public bool IsSurrender;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public int? AdventureLevel;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
