@@ -32,5 +32,7 @@
         TurnOver = 27,
         ReturnFromInstance = 28,
         WaitForOpponent = 29,
+        PvpLeaderboardUpdate = 30,
+        AdventureLeaderboardUpdate = 31,
     }
 }
