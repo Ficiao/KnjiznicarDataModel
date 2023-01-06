@@ -12,6 +12,8 @@ namespace KnjiznicarDataModel.Message
         public string EnemryWord;
         public int EnemyDamage;
         public List<char> NewLetters;
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+        public MatchEndMessage MatchEndData;
 
         public TurnOverMessage() : base(MessageType.TurnOver)
         {
