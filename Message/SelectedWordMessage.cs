@@ -1,11 +1,12 @@
 ﻿using KnjiznicarDataModel.Enum;
-using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace KnjiznicarDataModel.Message
 {
     class SelectedWordMessage : BaseMessage
     {
-        public string Word;
+        public List<(int, int)> LetterIndexes;
+
         public SelectedWordMessage() : base(MessageType.SelectedWord)
         {
         }
