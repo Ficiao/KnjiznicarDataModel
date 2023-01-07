@@ -2,7 +2,7 @@
 
 namespace KnjiznicarDataModel.Message
 {
-    class RegisterMessage : BaseMessage
+    public class RegisterMessage : BaseMessage
     {
         public string Username;
         public string PasswordHash;

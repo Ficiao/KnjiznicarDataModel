@@ -2,7 +2,7 @@
 
 namespace KnjiznicarDataModel.Message
 {
-    class PvpLeaderboardUpdateMessage : BaseMessage
+    public class PvpLeaderboardUpdateMessage : BaseMessage
     {
         public LeaderboardData Leaderboard;
 

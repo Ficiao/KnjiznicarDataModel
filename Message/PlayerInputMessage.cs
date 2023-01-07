@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {
-    class PlayerInputMessage : BaseMessage
+    public class PlayerInputMessage : BaseMessage
     {
         [JsonProperty("a")]
         public int LeftRightDirection;

@@ -2,7 +2,7 @@
 
 namespace KnjiznicarDataModel.Message
 {
-    class ReturnFromInstanceMessage : BaseMessage
+    public class ReturnFromInstanceMessage : BaseMessage
     {
         public string SessionId;
 

@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {
-    class LoginSuccessfulMessage : BaseMessage
+    public class LoginSuccessfulMessage : BaseMessage
     {
         public bool LoginSuccessful;
         public bool IsLogin;

@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {
-    class SurrenderRequestMessage : BaseMessage
+    public class SurrenderRequestMessage : BaseMessage
     {
         public SurrenderRequestMessage() : base(MessageType.SurrenderRequest)
         {

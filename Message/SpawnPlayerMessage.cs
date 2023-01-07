@@ -2,7 +2,7 @@
 
 namespace KnjiznicarDataModel.Message
 {
-    class SpawnPlayerMessage : BaseMessage
+    public class SpawnPlayerMessage : BaseMessage
     {
         public string PlayerUsername;
         public float[] SpawnPosition;

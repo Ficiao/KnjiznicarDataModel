@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {
-    class PlayerChatMessage : BaseMessage
+    public class PlayerChatMessage : BaseMessage
     {
         public string Message;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]

@@ -2,7 +2,7 @@
 
 namespace KnjiznicarDataModel.Message
 {
-    class PlayerLoggedOutMessage : BaseMessage
+    public class PlayerLoggedOutMessage : BaseMessage
     {
         public string Id;
         

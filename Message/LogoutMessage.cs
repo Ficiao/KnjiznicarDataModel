@@ -2,7 +2,7 @@
 
 namespace KnjiznicarDataModel.Message
 {
-    class LogoutMessage : BaseMessage
+    public class LogoutMessage : BaseMessage
     {
         public bool ResponseNeeded;
 

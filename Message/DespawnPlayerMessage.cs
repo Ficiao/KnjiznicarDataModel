@@ -2,7 +2,7 @@
 
 namespace KnjiznicarDataModel.Message
 {
-    class DespawnPlayerMessage : BaseMessage
+    public class DespawnPlayerMessage : BaseMessage
     {
         public string PlayerUsername;
 

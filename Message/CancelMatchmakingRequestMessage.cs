@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {
-    class CancelMatchmakingRequestMessage : BaseMessage
+    public class CancelMatchmakingRequestMessage : BaseMessage
     {
         public CancelMatchmakingRequestMessage() : base(MessageType.CancelMatchmakingRequest)
         {

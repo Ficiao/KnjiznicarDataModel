@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {
-    class MatchFoundMessage : BaseMessage
+    public class MatchFoundMessage : BaseMessage
     {
         public MatchType MatchType;
         public PlayerMatchData OwnData;

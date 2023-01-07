@@ -2,7 +2,7 @@
 
 namespace KnjiznicarDataModel.Message
 {
-    class PlayerNameSelectionMessage : BaseMessage
+    public class PlayerNameSelectionMessage : BaseMessage
     {
         public string PlayerName;
 

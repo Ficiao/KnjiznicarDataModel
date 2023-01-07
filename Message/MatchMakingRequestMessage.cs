@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {
-    class MatchmakingRequestMessage : BaseMessage
+    public class MatchmakingRequestMessage : BaseMessage
     {
         public MatchType MatchType;
         public int NpcId;

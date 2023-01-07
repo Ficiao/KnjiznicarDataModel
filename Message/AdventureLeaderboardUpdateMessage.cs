@@ -2,7 +2,7 @@
 
 namespace KnjiznicarDataModel.Message
 {
-    class AdventureLeaderboardUpdateMessage : BaseMessage
+    public class AdventureLeaderboardUpdateMessage : BaseMessage
     {
         public LeaderboardData Leaderboard;
 

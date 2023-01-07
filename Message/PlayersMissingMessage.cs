@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace KnjiznicarDataModel.Message
 {
-    class PlayersMissingMessage : BaseMessage
+    public class PlayersMissingMessage : BaseMessage
     {
         public List<string> MissingNames;
 

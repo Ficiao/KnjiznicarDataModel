@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace KnjiznicarDataModel.Message
 {
-    class SpawnPlayersMessage : BaseMessage
+    public class SpawnPlayersMessage : BaseMessage
     {
         public List<(string, float[])> SpawnArray;
 

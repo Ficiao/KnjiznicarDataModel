@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace KnjiznicarDataModel.Message
 {
-    class SelectedWordMessage : BaseMessage
+    public class SelectedWordMessage : BaseMessage
     {
         public List<(int, int)> LetterIndexes;
 

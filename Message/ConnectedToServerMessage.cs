@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {
-    class ConnectedToServerMessage : BaseMessage
+    public class ConnectedToServerMessage : BaseMessage
     {
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public string WelcomeMessage;        

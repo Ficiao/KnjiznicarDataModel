@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {
-    class MatchEndMessage : BaseMessage
+    public class MatchEndMessage : BaseMessage
     {
         public MatchType MatchType;
         public bool HasWon;

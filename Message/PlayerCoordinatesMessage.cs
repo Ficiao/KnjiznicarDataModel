@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {
-    class PlayerCoordinatesMessage : BaseMessage
+    public class PlayerCoordinatesMessage : BaseMessage
     {
         public class PlayerCoordinates
         {

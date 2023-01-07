@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {
-    class PlayerConnectedMessage :BaseMessage
+    public class PlayerConnectedMessage :BaseMessage
     {
         public string Username;
         public string PlayerName;

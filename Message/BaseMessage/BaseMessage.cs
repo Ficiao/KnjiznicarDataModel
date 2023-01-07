@@ -2,7 +2,7 @@
 
 namespace KnjiznicarDataModel.Message
 {
-    class BaseMessage
+    public class BaseMessage
     {
         public MessageType MessageType { get; }
 
