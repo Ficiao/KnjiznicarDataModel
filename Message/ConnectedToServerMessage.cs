@@ -6,7 +6,9 @@ namespace KnjiznicarDataModel.Message
     public class ConnectedToServerMessage : BaseMessage
     {
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
-        public string WelcomeMessage;        
+        public string WelcomeMessage;
+        [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+        public string Version;
         [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
         public string SessionId;
         public ServerType ServerType;
