@@ -11,12 +11,10 @@ namespace KnjiznicarDataModel.Message
         [JsonProperty("b")]
         public float[] Position = new float[3];
         [JsonProperty("c")]
-        public float[] Rotation = new float[3];
-        [JsonProperty("d")]
         public int LeftRightDirection;
-        [JsonProperty("e")]
+        [JsonProperty("d")]
         public int ForwardDirection;
-        [JsonProperty("f")]
+        [JsonProperty("e")]
         public bool Grounded;
 
         public PlayerCoordinatesMessage() : base(MessageType.PlayerCoordinates)

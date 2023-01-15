@@ -25,7 +25,7 @@ namespace KnjiznicarDataModel.Message
         [JsonProperty("a")]
         public List<PlayerCoordinates> PlayerPositions;
 
-        public PlayersCoordinatesMessage() : base(MessageType.PlayerCoordinates)
+        public PlayersCoordinatesMessage() : base(MessageType.PlayersCoordinates)
         {
             PlayerPositions = new List<PlayerCoordinates>();
         }

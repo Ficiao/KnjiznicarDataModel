@@ -34,5 +34,6 @@
         WaitForOpponent = 29,
         PvpLeaderboardUpdate = 30,
         AdventureLeaderboardUpdate = 31,
+        PlayersCoordinates = 32,
     }
 }
