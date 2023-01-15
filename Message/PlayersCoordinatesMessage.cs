@@ -11,9 +11,9 @@ namespace KnjiznicarDataModel.Message
             [JsonProperty("b")]
             public string PlayerUsername;
             [JsonProperty("c")]
-            public float[] Position = new float[3];
+            public float[] Position;
             [JsonProperty("d")]
-            public float[] Rotation = new float[3];
+            public float[] Rotation;
             [JsonProperty("e")]
             public int LeftRightDirection;
             [JsonProperty("f")]
