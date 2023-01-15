@@ -1,5 +1,4 @@
 ﻿using KnjiznicarDataModel.Enum;
-using Newtonsoft.Json;
 
 namespace KnjiznicarDataModel.Message
 {

@@ -6,12 +6,14 @@ namespace KnjiznicarDataModel.Message
     public class PlayerInputMessage : BaseMessage
     {
         [JsonProperty("a")]
-        public int LeftRightDirection;
+        public int TickIndex;
         [JsonProperty("b")]
-        public int ForwardDirection;
+        public int LeftRightDirection;
         [JsonProperty("c")]
-        public bool Jump;
+        public int ForwardDirection;
         [JsonProperty("d")]
+        public bool Jump;
+        [JsonProperty("e")]
         public float[] Rotation = new float[3];
 
         public PlayerInputMessage() : base(MessageType.PlayerInput)
